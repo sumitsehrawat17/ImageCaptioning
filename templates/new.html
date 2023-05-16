@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageCaptioning</title>
+</head>
+<body>
+    <h1>Image Caption by Deep Learning</h1>
+    {% for item in caption %}
+       <h1>your caption : {{ item.cap1}}</h1>
+    {% endfor %}
+    <a href="http://127.0.0.1:3000/">try another</a>
+</body>
+</html>
